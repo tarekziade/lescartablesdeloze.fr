@@ -14,7 +14,6 @@
                     <h1 class="blog-title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h1> 
 {{ article.content }}
 
-<p><a href="{{ SITEURL }}/{{ article.url }}#disqus_thread">Commentaires & Réactions</a></p>
                 </article>
                 {% if loop.length == 1 %}
                     {% include 'pagination.html' %}
