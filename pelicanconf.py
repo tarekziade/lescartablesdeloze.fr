@@ -27,7 +27,7 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
-MENUITEMS = [('Accueil', '/')]
+MENUITEMS = [('Accueil', '/'), ('Actus', '/category/actus.html')]
 STATIC_PAGES = {}
 THEME = "themes/tarek"
 
